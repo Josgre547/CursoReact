@@ -1,7 +1,8 @@
-export const ItemListContainer =({handleClick}) =>{
+export const ItemListContainer =(props) => {
+     console.log(props)
      return  (
      <button
-          onClick={handleClick}>Saludo
+          onClick={props.handleClick}>Saludo
      </button>
      )
 }

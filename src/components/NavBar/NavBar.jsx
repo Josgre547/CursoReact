@@ -15,7 +15,6 @@ export const NavBar =() =>{
                          height: '5rem',
                          width: '10rem',
                          display: 'flex',
-                         justifyContent: 'center',
                          alignItems: 'center',
                          gap: 10}}>
                               <a link href="http://">Inicio</a>
