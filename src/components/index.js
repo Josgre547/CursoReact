@@ -1,3 +1,4 @@
-export {NavBar} from './NavBar/NavBar';
-export {CartWidget} from './CartWidget/CartWidget';
-export {ItemListContainer} from './ItemListContainer/ItemListContainer';
+export {NavBar} from "./NavBar/NavBar";
+export {Item} from "./Item/Item";
+export {ItemCount} from "./ItemCount/ItemCount";
+export {ItemListContainer} from "./ItemListContainer/ItemListContainer";

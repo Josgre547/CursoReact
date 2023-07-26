@@ -1,0 +1,22 @@
+.navbar{
+    padding: 0;
+    position: relative;
+}
+.navbar__content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.navbar__items{
+    display: flex;
+    gap: 24px;
+    font-size: 18px;
+    
+}
+.navbar__items a{
+    color: #c2c2c2;
+}
+.navbar__items a:hover{
+    filter: brightness(1.3)
+}

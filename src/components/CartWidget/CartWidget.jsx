@@ -1,7 +1,8 @@
-import {FaOpencart} from "react-icons/fa";
-export const CartWidget =({items}) =>{
-     return  <div className="container">
-          <FaOpencart style={{fontSize:50, color:'red'}}/>
-          ({items})
-          </div>
-}
+import { FaOpencart } from "react-icons/fa";
+import "./CartWidget.css";
+
+export const CartWidget = () => (
+  <div className="cart-widget">
+    <FaOpencart /> <span className="cart-widget__qty">(10)</span>
+  </div>
+);
