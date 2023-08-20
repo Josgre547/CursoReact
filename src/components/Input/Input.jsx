@@ -1,4 +1,4 @@
-//TODO comentar
+
 export const Input = ({ label, placeholder, onChange, ...props }) => {
     return (
       <div>

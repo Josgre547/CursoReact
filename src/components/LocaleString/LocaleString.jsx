@@ -2,7 +2,7 @@ export const LocaleString = ({ num }) => {
     return (
       <span>
         $
-        {num.toLocaleString("es-CO", {
+        {num.toLocaleString("es-AR", {
           maximumFractionDigits: 2,
           minimumFractionDigits: 2,
         })}
